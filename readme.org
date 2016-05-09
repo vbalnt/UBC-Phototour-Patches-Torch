@@ -25,8 +25,8 @@ already converted models:
 
 #+begin_src bash
 wget http://www.iis.ee.ic.ac.uk/~vb2415/notredame-t7.tar.gz
-http://www.iis.ee.ic.ac.uk/~vb2415/liberty-t7.tar.gz
-http://www.iis.ee.ic.ac.uk/~vb2415/yosemite-t7.tar.gz
+wget http://www.iis.ee.ic.ac.uk/~vb2415/liberty-t7.tar.gz
+wget http://www.iis.ee.ic.ac.uk/~vb2415/yosemite-t7.tar.gz
 #+end_src
 
 Note that the above are the =DoG= versions of the patches, so to get
