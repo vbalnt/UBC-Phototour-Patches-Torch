@@ -30,4 +30,4 @@ wget http://www.iis.ee.ic.ac.uk/~vb2415/yosemite-t7.tar.gz
 #+end_src
 
 Note that the above are the =DoG= versions of the patches, so to get
-the ==Harris= versions, you need to rerun the code.
+the =Harris= versions, you need to rerun the code.
