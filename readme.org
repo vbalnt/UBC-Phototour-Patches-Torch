@@ -1,0 +1,33 @@
+* Phototour patches dataset in torch .t7 format for experiments with convolutional feature descriptors
+ 
+** Intro
+Simple script to convert the Phototour patches dataset into torch
+format for experiments with convolutional neural networks.
+
+Also check [[https://github.com/vbalnt/pnnet][pn-net]].
+
+Two versions of the patches are saved both =32x32= and =64x64=. Also,
+the =ids= and the =500k= and =100K= patch pairs are saved. Usually the
+=500k= dataset is reserved for training, and all the results in the
+bibliography together with the FPR95 error rates are reported in the
+=100k= datasets.
+
+
+** How to run
+Download the raw data from [[http://phototour.cs.washington.edu/patches/default.htm][patches-dataset]] and unzip.  Change the
+parameters in the =opt= table to match your config (e.g patch and img
+filetype), and run the file with =th PhototourPatches.lua=
+
+
+** Download generated .t7 files 
+If you dont want to convert them yourself, you can download the
+already converted models:
+
+#+begin_src bash
+wget http://www.iis.ee.ic.ac.uk/~vb2415/notredame-t7.tar.gz
+http://www.iis.ee.ic.ac.uk/~vb2415/liberty-t7.tar.gz
+http://www.iis.ee.ic.ac.uk/~vb2415/yosemite-t7.tar.gz
+#+end_src
+
+Note that the above are the =DoG= versions of the patches, so to get
+the ==Harris= versions, you need to rerun the code.
