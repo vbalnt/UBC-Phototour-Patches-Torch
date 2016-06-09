@@ -14,7 +14,7 @@ bibliography together with the FPR95 error rates are reported in the
 
 
 ** How to run
-Download the raw data from [[http://phototour.cs.washington.edu/patches/default.htm][patches-dataset]] and unzip.  Change the
+Download the raw data from [[www.cs.ubc.ca/~mbrown/patchdata/patchdata.html%20][patches-dataset]] and unzip.  Change the
 parameters in the =opt= table to match your config (e.g path and img
 filetype), and run the file with =th PhototourPatches.lua=
 
