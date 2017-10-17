@@ -26,7 +26,7 @@ already converted models:
 #+begin_src bash
 wget http://www.icvl.ee.ic.ac.uk/vbalnt/notredame-t7.tar.gz
 wget http://www.icvl.ee.ic.ac.uk/vbalnt/liberty-t7.tar.gz
-wget http://www.icl.ee.ic.ac.uk/vbalnt/yosemite-t7.tar.gz
+wget http://www.icvl.ee.ic.ac.uk/vbalnt/yosemite-t7.tar.gz
 #+end_src
 
 Note that the above are the =DoG= versions of the patches, so to get
